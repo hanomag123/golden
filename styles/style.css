@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+.title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.discription {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+
+    color: #777777;
+}
+.container {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+    position: relative;
+}
+.header {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    height: 700px;
+}
+.wrapperHeaderTop {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapperHeaderTop img {
+    margin-top: 44px;
+}
+.nav {
+    display: flex;
+    list-style: none;
+}
+.navItem {
+    margin-top: 50px;
+}
+.navItem a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.navItem:not(:last-child) {
+    margin-right: 40px;
+}
+.wrapperHeaderBot {
+    text-align: center;
+    margin-top: 205px;
+}
+.wrapperHeaderBot h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+
+    margin-bottom: 60px;
+
+    color: #fff;
+}
+.wrapperHeaderBot h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 75px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 50px;
+
+    color: #fff;
+}
+.buttonSite {
+    border: none;
+    border-radius: 3px;
+
+    cursor: pointer;
+
+    background-color: #fed136;
+
+    height: 65px;
+    width: 240px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+
+    color: #fff;
+}
+.services {
+    height: 568px;
+}
+.servicesTop {
+    text-align: center;
+
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+.servicesTop h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+
+    text-transform: uppercase;
+}
+.servicesTop p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: normal;
+
+    color: #777777;
+
+    margin-top: 20px;
+}
+.servicesBot {
+    display: flex;
+    justify-content: space-between;
+}
+.blockServicesBot {
+    text-align: center;
+
+    width: 290px;
+    height: 185px;
+}
+.blockServicesBot h4, 
+.blockServicesBot p {
+    margin-top: 25px;
+}
+.portfolio {
+    height: 1218px;
+
+    background-color: #f7f7f7;
+}
+.portfolioTop {
+    padding-top: 120px;
+}
+.portfolioContent {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 940px;
+    height: 836px;
+}
+.blockPf {
+    background-color: #fff;
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+.blockPf h4 {
+    margin-top: 30px;
+}
+.blockPf p {
+    margin-bottom: 30px;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.marginTop {
+    margin-top: 25px;
+}
+.aboutUsContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+}
+.line {
+    position: absolute;
+    z-index: -1;
+
+    width: 5px;
+    height: 1160px;
+
+    background-color: #f1f1f1;
+}
+.textmessage {
+    text-align: center;
+    line-height: 25px;
+}
+.wrapperAboutUsMain {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 920px;
+    height: 1283px;
+    margin-bottom: 240px;
+}
+.wrapperAboutUs {
+    width: 270px;
+}
+.aboitUsItemLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 735px;
+
+    text-align: right;
+}
+.aboitUsItem {
+    display: flex;
+}
+.aboitUsItem:last-child {
+    width: 183px;
+    height: 183px;
+    background-image: url(../images/pfImage5.png);
+    background-repeat: no-repeat;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.aboitUsItemRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 735px;
+
+    margin-top: 277px;
+}
+.ourTeamContent {
+    margin: auto;
+    width: 780px;
+    display: flex;
+    justify-content: space-between;
+}
+.image {
+    background-color: black;
+    border-radius: 50%;
+    height: 226px;
+    width: 226px;
+}
+.ourTeamItems{
+    text-align: center;
+}
+.ourTeamItems h3 {
+    margin-top: 28px;
+    margin-bottom: 16px;
+}
+.ourTeamItems p {
+    margin-bottom: 18px;
+}
+.ourTeamItems img:not(:last-child) {
+    margin-right: 10px;
+}
+.text {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    line-height: 20px;
+    margin-bottom: 180px;
+}
+.ourTeamText {
+    margin-top: 55px;
+    width: 500px;
+    text-align: center;
+}
+.companis {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 61px;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 677px;
+    background-image: url(../images/MapImage.png);
+    background-repeat: no-repeat;
+    background-position: right 100px;
+    background-color: #222222;
+}
+.footerTitle h3 {
+    color: white;
+}
+.input {
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    width: 1000px;
+    height: 211px;
+}
+.wrapperInput {
+    display: flex;
+    flex-direction: column;
+}
+.input input {
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #bbbbbb;
+    padding-left: 20px;
+}
+.input textarea {
+    resize: none;
+    border-radius: 5px;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #bbbbbb;
+    
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.leftInput {
+    width: 455px;
+    height: 50px;
+    margin-right: 30px;
+}
+.leftInput:not(:last-child){
+    margin-bottom: 30px;
+}
+.rightInput {
+    width: 455px;
+    height: 190px;
+    text-align: left;
+}
+.wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.footerBot {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyrights {
+    position: absolute;
+    bottom: 30px;
+}
